@@ -10,7 +10,7 @@ const app = express();
 
 // Middleware
 app.use(express.json());
-app.use(cors({ origin: "*" }));
+app.use(cors({ origin: "https://merry-tulumba-b7c415.netlify.app" }));
 
 // Logging middleware
 app.use((req, res, next) => {
