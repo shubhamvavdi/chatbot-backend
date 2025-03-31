@@ -14,7 +14,6 @@ const server = http.createServer(app);
 // ✅ Allowed Origins for CORS
 const allowedOrigins = [
   "https://merry-tulumba-b7c415.netlify.app",
-  "http://localhost:3000"
 ];
 
 // ✅ Configure CORS
